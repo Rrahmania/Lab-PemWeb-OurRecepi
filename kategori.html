@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+  <title>Kategori </title>
+</head>
+<style>
+  body {
+      background: linear-gradient(135deg, bg-yellow-50);
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      text-align: center;
+      overflow-x: hidden;
+      min-height: 100vh;
+      background-color: rgb(255, 174, 0);
+    }
+
+      .card {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(12px);
+      border-radius: 15px;
+      padding: 5px;
+      max-width: 800px;
+      margin: 10px auto;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+      background-color: yellow;
+    }
+   
+</style>
+<body class="bg-yellow-50 text-gray-800 font-sans">
+
+  <header class="bg-gradient-to-r from bg-yellow-300 via-yellow-300 text-yellow-700 p-4 shadow-lg flex justify-between items-center sticky top-0 z-10">
+    <h1 class="text-3xl font-bold font-mono tracking-wide">
+      <a href="#" class="hover:text-yellow-200 transition duration-300">OUR RECIPE</a>
+    </h1>
+
+    <nav>
+      <ul class="flex space-x-6 text-2xl">
+        <li><a href="index.html" class="hover:underline hover:text-yellow-200">Home</a></li>
+        <li><a href="kategori.html" class="hover:underline hover:text-yellow-200">Kategori</a></li>
+        <li><a href="daftarFav.html" class="hover:underline hover:text-yellow-200">Favorit</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+
+  
+  <section class="text-center mt-10 mb-6">
+    <h2 class="text-3xl font-bold text-yellow-800"> Kategori Masakan 🍽</h2>
+    <p class="text-gray-600 mt-2">Temukan resep sesuai seleramu !</p>
+  </section>
+
+
+  <main class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 mb-16">
+
+    
+    <div class="bg-white shadow-lg  rounded-xl overflow-hidden hover:shadow-2xl transition hover:-translate-y-1 cursor-pointer">
+      <img src="https://cf.shopee.co.id/file/adcc3e6a55599238200db2eccbc9faff" alt="Ikan" class="w-full h-48 object-cover">
+      <div class="p-4 text-center">
+        <h3 class="text-xl font-semibold text-yellow-800">Ikan</h3>
+      </div>
+    </div>
+
+    <div class="bg-white shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition hover:-translate-y-1 cursor-pointer">
+      <img src="https://superapp.id/blog/wp-content/uploads/2020/07/daging-sapi.jpeg" alt="Daging" class="w-full h-48 object-cover">
+      <div class="p-4 text-center">
+        <h3 class="text-xl font-semibold text-yellow-800">Daging</h3>
+      </div>
+    </div>
+
+    <div class="bg-white shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition hover:-translate-y-1 cursor-pointer">
+      <img src="https://tse4.mm.bing.net/th/id/OIP.ihIqoMSe-SSCac0VAnfunAHaFb?w=1200&h=879&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Cepat Saji" class="w-full h-48 object-cover">
+      <div class="p-4 text-center">
+        <h3 class="text-xl font-semibold text-yellow-800">Cepat Saji</h3>
+      </div>
+    </div>
+
+    <div class="bg-white shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition hover:-translate-y-1 cursor-pointer">
+      <img src="https://tse3.mm.bing.net/th/id/OIP.a1GuhPgQg_ZwR0CF_m-QOgHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Snack" class="w-full h-48 object-cover">
+      <div class="p-4 text-center">
+        <h3 class="text-xl font-semibold text-yellow-800">Snack</h3>
+      </div>
+    </div>
+
+    <div class="bg-white shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition hover:-translate-y-1 cursor-pointer">
+      <img src="https://i.pinimg.com/originals/01/06/e7/0106e700e8b7c8c2940eb062e9b7bdf2.jpg" alt="Dessert" class="w-full h-48 object-cover">
+      <div class="p-4 text-center">
+        <h3 class="text-xl font-semibold text-yellow-800">Dessert</h3>
+      </div>
+    </div>
+
+    <div class="bg-white shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition hover:-translate-y-1 cursor-pointer">
+      <img src="https://tse3.mm.bing.net/th/id/OIP.4CFLqJy7OgBHCyEeJMF6EAHaEw?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Minuman" class="w-full h-48 object-cover">
+      <div class="p-4 text-center">
+        <h3 class="text-xl font-semibold text-yellow-800">Minuman</h3>
+      </div>
+    </div>
+  </main>
+  
+  <section id="menuContainer" class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10 px-6"></section>
+</body>
+</html>
